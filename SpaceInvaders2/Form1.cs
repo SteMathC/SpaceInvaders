@@ -12,6 +12,10 @@ namespace SpaceInvaders2
 {
     public partial class Form1 : Form
     {
+        public bool goLeft;
+        public bool goRight;
+        public int playerSpeed = 5;
+
         public Form1()
         {
             InitializeComponent();
@@ -29,17 +33,40 @@ namespace SpaceInvaders2
 
         private void keyisup(object sender, KeyEventArgs e)
         {
-            throw new System.NotImplementedException();
+            switch (e.KeyCode)
+            {
+                case Keys.Left:
+                    goLeft = false;
+                    break;
+                case Keys.Right:
+                    goRight = false;
+                    break;
+            }
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
         {
-            throw new System.NotImplementedException();
+            switch (e.KeyCode)
+            {
+                case Keys.Left:
+                    goLeft = true;
+                    break;
+                case Keys.Right:
+                    goRight = true;
+                    break;
+            }
         }
 
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            if (goLeft)
+            {
+                Player.Left -= playerSpeed;
+            }
+            else if (goRight)
+            {
+                Player.Left += playerSpeed;
+            }
         }
     }
 }

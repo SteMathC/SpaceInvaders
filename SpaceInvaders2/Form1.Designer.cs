@@ -64,7 +64,7 @@
             this.pictureBox2.Image = global::SpaceInvaders2.Properties.Resources.enemy;
             this.pictureBox2.Location = new System.Drawing.Point(155, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(60, 58);
+            this.pictureBox2.Size = new System.Drawing.Size(59, 58);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -75,7 +75,7 @@
             this.pictureBox3.Image = global::SpaceInvaders2.Properties.Resources.enemy;
             this.pictureBox3.Location = new System.Drawing.Point(89, 12);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(60, 58);
+            this.pictureBox3.Size = new System.Drawing.Size(59, 58);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -87,7 +87,7 @@
             this.pictureBox4.Image = global::SpaceInvaders2.Properties.Resources.enemy;
             this.pictureBox4.Location = new System.Drawing.Point(23, 12);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(60, 58);
+            this.pictureBox4.Size = new System.Drawing.Size(59, 58);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -98,7 +98,7 @@
             this.pictureBox5.Image = global::SpaceInvaders2.Properties.Resources.enemy;
             this.pictureBox5.Location = new System.Drawing.Point(223, 12);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(60, 58);
+            this.pictureBox5.Size = new System.Drawing.Size(59, 58);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 6;
             this.pictureBox5.TabStop = false;
@@ -109,7 +109,7 @@
             this.pictureBox6.Image = global::SpaceInvaders2.Properties.Resources.enemy;
             this.pictureBox6.Location = new System.Drawing.Point(289, 12);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(60, 58);
+            this.pictureBox6.Size = new System.Drawing.Size(59, 58);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
@@ -120,7 +120,7 @@
             this.pictureBox7.Image = global::SpaceInvaders2.Properties.Resources.enemy;
             this.pictureBox7.Location = new System.Drawing.Point(355, 12);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(60, 58);
+            this.pictureBox7.Size = new System.Drawing.Size(59, 58);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 4;
             this.pictureBox7.TabStop = false;
@@ -146,7 +146,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 461);
+            this.ClientSize = new System.Drawing.Size(684, 462);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox6);
