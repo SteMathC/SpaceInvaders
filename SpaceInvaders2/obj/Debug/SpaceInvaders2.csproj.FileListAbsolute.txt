@@ -6,3 +6,4 @@ C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInv
 C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.csproj.GenerateResource.cache
 C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.exe
 C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.pdb
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.Form1.resources

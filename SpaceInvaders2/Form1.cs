@@ -16,5 +16,30 @@ namespace SpaceInvaders2
         {
             InitializeComponent();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void keyisup(object sender, KeyEventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void keyisdown(object sender, KeyEventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void GameTimer_Tick(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
