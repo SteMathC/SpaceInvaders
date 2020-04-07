@@ -30,7 +30,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.Player = new System.Windows.Forms.PictureBox();
+            this.player = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -39,7 +39,7 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.GameTimer = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize) (this.Player)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).BeginInit();
@@ -48,16 +48,17 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
-            // Player
+            // player
             // 
-            this.Player.Image = global::SpaceInvaders2.Properties.Resources.image;
-            this.Player.Location = new System.Drawing.Point(289, 399);
-            this.Player.Name = "Player";
-            this.Player.Size = new System.Drawing.Size(50, 50);
-            this.Player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Player.TabIndex = 0;
-            this.Player.TabStop = false;
-            this.Player.Tag = "player";
+            this.player.Image = global::SpaceInvaders2.Properties.Resources.image;
+            this.player.Location = new System.Drawing.Point(289, 357);
+            this.player.Name = "player";
+            this.player.Size = new System.Drawing.Size(50, 50);
+            this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.player.TabIndex = 0;
+            this.player.TabStop = false;
+            this.player.Tag = "";
+            this.player.Click += new System.EventHandler(this.Player_Click);
             // 
             // pictureBox2
             // 
@@ -154,12 +155,12 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.Player);
+            this.Controls.Add(this.player);
             this.Name = "Form1";
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
-            ((System.ComponentModel.ISupportInitialize) (this.Player)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.player)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).EndInit();
@@ -178,7 +179,7 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox Player;
         private System.Windows.Forms.Timer GameTimer;
+        private System.Windows.Forms.PictureBox player;
     }
 }
