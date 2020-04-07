@@ -1,0 +1,8 @@
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\bin\Debug\SpaceInvaders2.exe.config
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\bin\Debug\SpaceInvaders2.exe
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\bin\Debug\SpaceInvaders2.pdb
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.csprojAssemblyReference.cache
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.Properties.Resources.resources
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.csproj.GenerateResource.cache
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.exe
+C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.pdb
