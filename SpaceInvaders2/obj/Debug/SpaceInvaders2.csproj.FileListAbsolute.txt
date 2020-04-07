@@ -7,3 +7,12 @@ C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInv
 C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.exe
 C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.pdb
 C:\Users\Matthijs\RiderProjects\SpaceInvaders2\SpaceInvaders2\obj\Debug\SpaceInvaders2.Form1.resources
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\bin\Debug\SpaceInvaders2.exe.config
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\bin\Debug\SpaceInvaders2.exe
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\bin\Debug\SpaceInvaders2.pdb
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\obj\Debug\SpaceInvaders2.csprojAssemblyReference.cache
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\obj\Debug\SpaceInvaders2.Form1.resources
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\obj\Debug\SpaceInvaders2.Properties.Resources.resources
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\obj\Debug\SpaceInvaders2.csproj.GenerateResource.cache
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\obj\Debug\SpaceInvaders2.exe
+D:\riderprojects\SpaceInvaders\SpaceInvaders\SpaceInvaders2\obj\Debug\SpaceInvaders2.pdb

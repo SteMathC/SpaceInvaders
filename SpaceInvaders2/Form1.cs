@@ -14,7 +14,10 @@ namespace SpaceInvaders2
     {
         public bool goLeft;
         public bool goRight;
+        public bool isPressed;
         public int playerSpeed = 6;
+        public int enemySpeed = 6;
+        public int score = 0;
 
         public Form1()
         {
@@ -43,10 +46,11 @@ namespace SpaceInvaders2
             {
                 goRight = true;
             }
-
-            if (e.KeyCode == Keys.Space)
+            
+            if (e.KeyCode == Keys.Space && !isPressed)
             {
-                Missile();
+                isPressed = true;
+                makeBullet();
             }
         }
 
@@ -61,6 +65,17 @@ namespace SpaceInvaders2
                     goRight = false;
                     break;
             }
+
+            if (isPressed)
+            {
+                isPressed = false;
+            }
+        }
+
+        private void gameover()
+        {
+            GameTimer.Stop();
+            label1.Text += "yeeted";
         }
 
 
@@ -74,26 +89,80 @@ namespace SpaceInvaders2
             {
                 player.Left += playerSpeed;
             }
+
+            foreach (Control x in this.Controls)
+            {
+                if (x is PictureBox && x.Tag == "invader")
+                {
+                    if (((PictureBox) x).Bounds.IntersectsWith(player.Bounds))
+                    {
+                        gameover();
+                    }
+
+                    ((PictureBox) x).Left += enemySpeed;
+
+
+                    if (((PictureBox) x).Left > 600)
+                    {
+                        ((PictureBox) x).Top += ((PictureBox) x).Height + 10;
+                        enemySpeed = -6;
+                    }
+                    
+                    if (((PictureBox) x).Left < 0)
+                    {
+                        ((PictureBox) x).Top += ((PictureBox) x).Height + 10;
+                        enemySpeed = 6;
+                    }
+                    
+                }
+            }
+
+
+
+            foreach (Control y in this.Controls)
+            {
+                if (y is PictureBox && y.Tag == "bullet")
+                {
+                    y.Top -= 20;
+                }
+            }
+
+            foreach (Control i in this.Controls)
+            {
+                foreach (Control j in this.Controls)
+                {
+                    if (i is PictureBox && i.Tag == "invader")
+                    {
+                        if (j is PictureBox && j.Tag == "bullet")
+                        {
+                            if (i.Bounds.IntersectsWith(j.Bounds))
+                            {
+                                score++;
+                                this.Controls.Remove(i);
+                                this.Controls.Remove(j);
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         private void Player_Click(object sender, EventArgs e)
         {
             throw new System.NotImplementedException();
         }
-        private void Missile()
+        
+        private void makeBullet()
         {
             PictureBox bullet = new PictureBox();
-            bullet.Padding = new Padding(0);
-            bullet.Location = new Point(player.Location.X - 20, player.Location.Y - 60);
-            bullet.Size = new Size(100, 100);
-            bullet.BackgroundImage = Properties.Resources.kugel;
-            bullet.BackgroundImageLayout = ImageLayout.Stretch;
-            bullet.Name = "Bullet";
+            bullet.Image = Properties.Resources.kugel;
+            bullet.Size = new Size(5,20);
+            bullet.Tag = "bullet";
+            bullet.Left = player.Left + player.Width / 2;
+            bullet.Top = player.Top - 20;
+            bullet.ForeColor = Color.Black;
             this.Controls.Add(bullet);
-            for (int i = 0; i < 200; i++)
-            {
-                bullet.Top = i;
-            }
+            bullet.BringToFront();
         }
     }
 }

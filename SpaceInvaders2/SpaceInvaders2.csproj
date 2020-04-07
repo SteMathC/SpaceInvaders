@@ -80,9 +80,9 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Resources\kugel.png" />
       <Content Include="Resources\enemy.png" />
       <Content Include="Resources\image.png" />
-      <Content Include="Resources\kugel.png" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
